@@ -1,0 +1,8 @@
+ syntax 
+
+ app.use((req,res,next)=>{
+res.send({msg:"hlw from middleware"})
+ })
+
+link for learning this concept
+ https://youtu.be/n2c0mf1sza4?si=FufcAC8bgO26Ukh4
