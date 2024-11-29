@@ -1,0 +1,111 @@
+1. What is BE (Backend)?
+Backend refers to the server side of an application that handles data processing, database management, and logic.
+Example: Login verification, fetching user data from a database.
+
+
+2. Languages
+Programming languages used for backend development include JavaScript (Node.js), Python (Django, Flask), PHP, Ruby, Java, etc.
+
+3. Browser vs V8
+Browser: Executes JavaScript in the front-end. Examples: Chrome, Firefox.
+
+V8: A JavaScript engine (used by Chrome and Node.js) that converts JavaScript code to machine code.
+
+4. What is Node.js?
+Node.js is a runtime environment that allows JavaScript to run outside the browser (e.g., on a server).
+Built on the V8 engine.
+Non-blocking, asynchronous, and event-driven.
+
+5. Why Node.js?
+Fast and scalable.
+Uses a single programming language (JavaScript) for both frontend and backend.
+Excellent for real-time apps (e.g., chats, streaming).
+
+6. What is API (Application Programming Interface)?
+A set of rules that allows two applications to communicate.
+Example: A weather app uses an API to fetch live weather data.
+
+
+
+8. HTTP Methods
+GET: Fetch data.
+POST: Send data to the server.
+PUT: Update data.
+DELETE: Remove data.
+
+
+9. JSON (JavaScript Object Notation)
+A lightweight format to store and transfer data.
+Example: { "name": "John", "age": 25 }
+
+
+10. What is NPM?
+Node Package Manager: Used to install and manage libraries or frameworks for Node.js.
+Example: npm install express
+
+
+11. Framework vs Library
+Framework: Provides a structure (e.g., Express.js, Django).
+Library: Provides specific tools and utilities (e.g., Lodash, jQuery).
+
+
+12. Express.js
+A lightweight and fast Node.js framework for building web applications and APIs.
+
+
+13. Routing
+Handling different URL paths in an app.
+
+14. Postman
+A tool to test APIs (e.g., making GET, POST requests, viewing responses).
+
+15. HTTP Status Codes
+200: OK
+404: Not Found
+500: Server Error
+
+
+16. Query Params, Path Params, Headers, Body
+Query Params: ?name=John&age=25 (additional info in URL).
+Path Params: /user/:id (dynamic part of the path).
+Headers: Metadata in requests (e.g., tokens, content type).
+Body: Main data (e.g., form submission).
+
+17. Middleware
+Functions that run before the main route handler.
+Example: Logging, authentication.
+
+18. Built-in Middleware
+Example: express.json() to parse JSON request bodies.
+
+19. File System Module (Node.js)
+Used to work with files.
+
+20. Database (SQL vs MongoDB)
+SQL: Structured (tables with rows/columns).
+MongoDB: NoSQL (document-based, JSON-like).
+
+21. Why MongoDB?
+Flexible schema, scales well with large datasets, works great with JavaScript.
+
+22. Mongoose
+A MongoDB library for Node.js to model and manage data.
+
+23. DB Connection in Node
+
+24. Schema Modeling
+Define the structure of your data.
+
+25. CRUD with DB
+Create: Add data.
+Read: Fetch data.
+Update: Modify data.
+Delete: Remove data.
+
+26. Folder Structure (MVC)
+Model: Manages data (e.g., database schemas).
+View: UI layer.
+Controller: Business logic (routes, middleware).
+
+27. Error Handling
+Handle errors gracefully using try...catch or middleware.
